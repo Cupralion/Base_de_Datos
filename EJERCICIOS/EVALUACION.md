@@ -60,3 +60,71 @@ fecha, número de páginas y el número de ejemplares vendidos.
 #Diagrama
 
 ![image](https://user-images.githubusercontent.com/104279605/170846124-11f6f7a6-2694-4765-a6e8-da0b5e56ffea.png)
+
+
+Codigo
+
+CREATE DATABASE editorial;
+USE editorial;
+--tabla_sucursal
+CREATE TABLE sucursal (
+codigo_sucursal INT UNSIGNED PRIMARY KEY,
+domicilio VARCHAR(100) NOT NULL,
+telefono_sucursal INT UNSIGNED NOT NULL
+);
+--tabla_revista
+CREATE TABLE revista (
+numero_de_registro INT UNSIGNED PRIMARY KEY,
+periodicidad VARCHAR(100) NOT NULL,
+titulo_revista VARCHAR(100) NOT NULL,
+Tipo VARCHAR(100) NOT NULL
+);
+--tabla_periodista
+CREATE TABLE periodista (
+nif_periodista INT UNSIGNED PRIMARY KEY,
+especialidad VARCHAR(100) NOT NULL,
+nombre_periodista VARCHAR(100) NOT NULL,
+apellido_periodista VARCHAR(100) NOT NULL,
+telefono_periodista INT UNSIGNED NOT NULL
+);
+--tabla_empleado
+CREATE TABLE empleado (
+nif_empleado INT UNSIGNED PRIMARY KEY,
+nombre_empleado VARCHAR(100) NOT NULL,
+apellido_empleado VARCHAR(100) NOT NULL,
+telefono_empleado INT UNSIGNED NOT NULL,
+codigo_sucursal1 INT UNSIGNED NOT NULL,
+FOREIGN KEY (codigo_sucursal1) REFERENCES sucursal(codigo_sucursal) 
+);
+--tabla_secciones
+CREATE TABLE secciones (
+id_seccion INT UNSIGNED PRIMARY KEY,
+extension VARCHAR(100) NOT NULL,
+titulo_seccion VARCHAR(100) NOT NULL,
+numero_de_registro3 INT UNSIGNED NOT NULL,
+FOREIGN KEY (numero_de_registro3) REFERENCES revista(numero_de_registro) 
+);
+--tabla_ejemplar
+CREATE TABLE ejemplar (
+id_ejemplar INT UNSIGNED PRIMARY KEY,
+fecha DATE NOT NULL,
+numero_de_pagias INT UNSIGNED NOT NULL,
+numero_de_ejemplares_vendidos INT UNSIGNED NOT NULL,
+numero_de_registro4 INT UNSIGNED NOT NULL,
+FOREIGN KEY (numero_de_registro4) REFERENCES revista(numero_de_registro) 
+);
+--tabla_sucursal_revista
+CREATE TABLE sucursal_revista (
+numero_de_registro1 INT UNSIGNED NOT NULL,
+codigo_sucursal1 INT UNSIGNED NOT NULL,
+FOREIGN KEY (numero_de_registro1) REFERENCES revista(numero_de_registro),
+FOREIGN KEY (codigo_sucursal1) REFERENCES sucursal(codigo_sucursal)
+);
+--tabla_revista_periodista
+CREATE TABLE revista_periodista (
+numero_de_registro2 INT UNSIGNED NOT NULL,
+nif_periodista1 INT UNSIGNED NOT NULL,
+FOREIGN KEY (numero_de_registro2) REFERENCES revista(numero_de_registro),
+FOREIGN KEY (nif_periodista1) REFERENCES periodista(nif_periodista)
+);
+
