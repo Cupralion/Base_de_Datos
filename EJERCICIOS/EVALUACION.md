@@ -59,5 +59,4 @@ fecha, número de páginas y el número de ejemplares vendidos.
 
 #Diagrama
 
-![image](https://user-images.githubusercontent.com/104279605/170845567-48b86562-3292-4205-85f4-4c52a5522529.png)
-
+![image](https://user-images.githubusercontent.com/104279605/170845668-af7f424c-ed92-410e-b785-d68bf1e07512.png)
