@@ -59,7 +59,7 @@ fecha, número de páginas y el número de ejemplares vendidos.
 
 #Diagrama
 
-![image](https://user-images.githubusercontent.com/104279605/170846124-11f6f7a6-2694-4765-a6e8-da0b5e56ffea.png)
+![image](https://user-images.githubusercontent.com/104279605/171970037-6413e176-cf78-419f-9cfe-b5a8cc70dde6.png)
 
 
 Codigo
