@@ -62,6 +62,10 @@ En la BD utilizada en clase realiza las siguientes consultas:
 
 * Muestra el nombre de la revista que se haya publicado en la sucursal 1 cuyos ejemplares tengan más de 80 páginas.
 
+![image](https://user-images.githubusercontent.com/104279605/172748919-d6259d42-0117-44fc-807d-3a41c3b36d2b.png)
+
+*
+
 https://www.db-fiddle.com/f/iAUjGLoFoHtam2pK68Xh1B/1
 
 
