@@ -5,18 +5,27 @@ Ejercicio:
 
 1. Menciona los comandos DMl: (valor .85)
 
+R= insert, select, update, delete
+
 2. Menciona 3 tipos de datos que existen: (valor .85)
 
+R= char, varchar, bigint
 
 3. ¿Qué diferencia existe entre TRUNCATE y DELETE?(valor .85)
 
+R= Delete permite el borrado selectivo y el truncate elimina toda la tabla, delete es un proceso muy lento linea por linea y truncate es inmediato
+
 4. ¿Para qué se utiliza el atributo UNIQUE?(valor .85)
+
+R= se ocupa cuando requerimos tener datos que no se puedan repetir.
 
 5. ¿Qué diferencia hay entre los tipos de datos VARCHAR y CHAR? (valor .85)
 
+R= char es una cadena de caracteres de una longitud fija y establecida por el usuario, varchar es una cadena de caracteres con un limite variable con un maximo definido por el usuario. Es mejor varchar para no guardar tantos espacios vacios
 
 6. Defina brevemente el significado de las siglas SQL(valor .85)
 
+R=
 
 7. Defina brevemente qué es MySQL WorkBench (valor .85)
 
