@@ -25,9 +25,11 @@ R= char es una cadena de caracteres de una longitud fija y establecida por el us
 
 6. Defina brevemente el significado de las siglas SQL(valor .85)
 
-R=
+R= lenguaje de consulta estructurada, es un lenguaje para realizar consultas de información organizada por campos, registros y archivos, de manera que se pueda seleccionar rápidamente los fragmentos de datos que se necesiten.
 
 7. Defina brevemente qué es MySQL WorkBench (valor .85)
+
+R= Es un editor visual de base de datos MySQL, su principal caracteristica es su editor de diagramas
 
 ## Práctica 5.
 ### Gestores de base de datos
@@ -44,7 +46,7 @@ Ejercicio:
 En un mapa conceptual presenta 3 gestores de bases de datos, sus características
 principales, las ventajas y desventajas. (valor 6)
 
-![image](https://user-images.githubusercontent.com/91554777/170415427-e2b7321b-a97f-43b0-ac24-6e506c307e6b.png)
+![image](https://user-images.githubusercontent.com/104279605/172948090-0537cd47-17f5-437a-9f03-3da668fb5e0d.png)
 
 ## Práctica 6.
 ### Herramienta en línea y ejercicio necesarios para realizar las prácticas
