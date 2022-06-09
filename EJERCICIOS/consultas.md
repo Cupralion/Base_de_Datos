@@ -1,20 +1,18 @@
 En la BD utilizada en clase realiza las siguientes consultas:
 
 * La tabla empleado
-* 
-*
 
 ![image](https://user-images.githubusercontent.com/104279605/172028115-fd669be9-4d75-4cc4-9a31-aa9df281210c.png)
 
-* Los titulos de las revistas
-
 *
+
+* Los titulos de las revistas
 
 **![image](https://user-images.githubusercontent.com/104279605/172028159-98a57ef2-b1eb-492c-aa28-eaa62b063418.png)
 
-* Los nombres, apellidos y especialidad de los periodostas
-
 *
+
+* Los nombres, apellidos y especialidad de los periodostas
 
 ![image](https://user-images.githubusercontent.com/104279605/172028198-9484f511-876d-40a2-a152-bc964f8fd24c.png)
 
@@ -36,9 +34,7 @@ En la BD utilizada en clase realiza las siguientes consultas:
 
 ![image](https://user-images.githubusercontent.com/104279605/172490833-840b7caf-26e2-4829-8ebc-81572ad7d4c5.png)
 
-
 *
-
 
 * En la tabla peridistas muestra solo los que escriban sobre cine
 
@@ -55,7 +51,6 @@ En la BD utilizada en clase realiza las siguientes consultas:
 
 * Muestra el nombre de ka revista que se hayan impreso despues del 30 de septiembre del 2021
 
-*
 ![image](https://user-images.githubusercontent.com/104279605/172492670-3f84e2ca-273e-4120-9ccf-858f94334eed.png)
 
 *
