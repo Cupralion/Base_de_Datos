@@ -72,7 +72,7 @@ Tienda de informática
 
 ## BASE DE DATOS 
 
-https://www.db-fiddle.com/f/sWANDQwbRMohbRaBoAEqq7/0
+https://www.db-fiddle.com/f/sWANDQwbRMohbRaBoAEqq7/1
 
 ## TABLA DE DATOS
 
