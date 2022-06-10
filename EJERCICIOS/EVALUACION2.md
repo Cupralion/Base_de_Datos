@@ -65,8 +65,41 @@ Tienda de informática
 
 
 
-Modelo entidad/relación
+## Modelo entidad/relación
 
+![image](https://user-images.githubusercontent.com/104279605/173148074-09b97a06-0a12-473b-9f1b-c809afbb19e9.png)
+
+
+## BASE DE DATOS 
+
+https://www.db-fiddle.com/f/sWANDQwbRMohbRaBoAEqq7/0
+
+## TABLA DE DATOS
+
+CODIGO	PRODUCTO	PRECIO	FABRICANTE	ID FABRICANTE
+DD-23	Disco Duro Sata3 1TB	US 86.99	SEAGATE	F01
+
+MM-34	Memoria RAM DDR4 8GB	US 120.6	CRUCIAL	F02
+
+DD-98	Disco SSD 1 TB	US 150.99	SAMSUNG	F03
+
+MM-98	GeForce GTX 1050Ti	US 185.7	GIGABYTE	F04
+
+MM-23	GeForce GTX 1080 Xtreme	US 755.6	CRUCIAL	F02
+
+MT-12	Monitor 24 LED Full HD	US 202.1	ASUS	F05
+
+MT-08	Monitor 27 LED Full HD	US 245.99	ASUS	F05
+
+LP-19	Portatil Yoga 520	US 559.2	LENOVO	F06
+
+LP-11	Portatil Ideapd 320	US 444.2	LENOVO	F06
+
+IM-56	Impresora HP Deskjet 3720	US 59.99	HP	F07
+
+IP-54	Impresora HP Laserjet Pro M26nw	US 180.3	HP	F07
+
+![image](https://user-images.githubusercontent.com/104279605/173155458-827b9232-4372-440c-bad3-9d4d462b6f3c.png)
 
 
 
