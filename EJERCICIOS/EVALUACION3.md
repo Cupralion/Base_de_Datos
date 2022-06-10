@@ -9,7 +9,12 @@ Ejercicio:
 
 1. ¿Qué es un DataWarehouse?(valor 2)
 
+R= Un data warehouse es un tipo de sistema de gestión de datos diseñado para habilitar y dar soporte a las tareas de inteligencia empresarial (BI), especialmente las analíticas. Los data warehouses solo se han diseñado para realizar consultas y tareas de análisis, y suelen contener grandes cantidades de datos históricos.
+
 2. Realiza un diseño del modelo en estrella (valor 2)
+
+
+
 
 3. Realiza un diseño del modelo copo de nieve (valor 2)
 
@@ -21,6 +26,8 @@ Objetivo: Demostrar el uso y aplicación en una base de datos para mejorar la ge
 Ejercicio:
 
 1. Calcula el número total de productos que hay en la tabla productos. (valor 4.5)
+
+R= ![image](https://user-images.githubusercontent.com/104279605/173156444-0295decb-73a5-4fa7-a758-5541aef5dfcd.png)
 
 
 2. Muestra el número total de productos que tiene cada uno de los fabricantes. El listado
