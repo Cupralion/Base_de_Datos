@@ -74,6 +74,9 @@ Tienda de informática
 
 https://www.db-fiddle.com/f/sWANDQwbRMohbRaBoAEqq7/1
 
+https://www.db-fiddle.com/f/sWANDQwbRMohbRaBoAEqq7/3
+
+
 ## TABLA DE DATOS
 
 CODIGO	PRODUCTO	PRECIO	FABRICANTE	ID FABRICANTE
